@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+//import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -11,7 +11,7 @@ import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Alert from "react-bootstrap/Alert";
-import Spinner from "react-bootstrap/Spinner";
+//import Spinner from "react-bootstrap/Spinner";
 
 class App extends React.Component {
   constructor(props) {
@@ -83,7 +83,7 @@ class App extends React.Component {
     const listItems = this.state.numArr.map((number) => (
       <p key={number.toString()}>{number}</p>
     ));
-    if (this.state.clk == 1) {
+    if (this.state.clk === 1) {
       return (
         <div>
           <Alert className="mb-3 ms-3" variant="success" xs={4}>
